@@ -8,3 +8,14 @@ sudo /etc/init.d/nfs-kernel-server restart
 
 Using Petalinux to Customize Linux System:
 ---------------------------------------------------------
+source /opt/pkg/petalinux/settings.sh
+source /opt/Xilinx/Vivado/2017.4/settings64.sh
+petalinux-create --type project --template zynq --name ax_peta
+cd ax_peta
+petalinux-config --get-hw-description ../linux_base.sdk
+petalinux-configls
+========================================================
+
+---------------------------------------------------------
+petalinux-config -c kernel
+
