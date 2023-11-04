@@ -1,0 +1,10 @@
+Install NFS service
+---------------------------------------------------------
+sudo apt-get install nfs-kernel-server
+sudo gedit /etc/exports
+sudo /etc/init.d/rpcbind restart
+sudo /etc/init.d/nfs-kernel-server restart
+========================================================
+
+Using Petalinux to Customize Linux System:
+---------------------------------------------------------
