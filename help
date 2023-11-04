@@ -18,4 +18,13 @@ petalinux-configls
 
 ---------------------------------------------------------
 petalinux-config -c kernel
+petalinux-config -c rootfs
+---------------------------------------------------------
+petalinux-build
+petalinux-package --boot --fsbl ./images/linux/zynq_fsbl.elf --fpga --u-boot --force
+
+---------------------------------------------------------
+tar -zxvf /home/zynq/peta_prj/linuxPsBase/petalinux/images/linux/rootfs.tar.gz -C /media/zynq/ROOTFS
+sudo tar -zxvf /media/zynq/ROOTFS/rootfs.tar.gz -C .
+sudo tar -xfz /media/zynq/ROOTFS/rootfs.tar.gz -C .
 
