@@ -25,6 +25,6 @@ petalinux-package --boot --fsbl ./images/linux/zynq_fsbl.elf --fpga --u-boot --f
 
 ---------------------------------------------------------
 tar -zxvf /home/zynq/peta_prj/linuxPsBase/petalinux/images/linux/rootfs.tar.gz -C /media/zynq/ROOTFS
+
 sudo tar -zxvf /media/zynq/ROOTFS/rootfs.tar.gz -C .
-sudo tar -xfz /media/zynq/ROOTFS/rootfs.tar.gz -C .
 
