@@ -1,11 +1,32 @@
+========================================================
 Install NFS service
----------------------------------------------------------
+========================================================
 sudo apt-get install nfs-kernel-server
 sudo gedit /etc/exports
 sudo /etc/init.d/rpcbind restart
 sudo /etc/init.d/nfs-kernel-server restart
+
+
+========================================================================================================================================================================
+  pre install software for petalinux
+========================================================================================================================================================================
+sudo apt-get install tofrodos gawk xvfb git libncurses5-dev tftpd zlib1g-dev zlib1g-dev:i386 libssl-dev flex bison chrpath socat autoconf libtool texinfo gcc-multilib libsdl1.2-dev libglib2.0-dev screen pax
+
+========================================================================================================================================================================
+  pre install software for petalinux
 ========================================================
 
+
+sudo -s
+mkdir -p /opt/pkg/petalinux 
+chown z7020 /opt/pkg/ 
+chgrp z7020 /opt/pkg/
+chown z7020 /opt/pkg/petalinux/
+chgrp z7020 /opt/pkg/petalinux/
+exit
+
+
+---------------------------------------------------------
 Using Petalinux to Customize Linux System:
 ---------------------------------------------------------
 source /opt/pkg/petalinux/settings.sh
