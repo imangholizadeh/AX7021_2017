@@ -49,3 +49,16 @@ tar -zxvf /home/zynq/peta_prj/linuxPsBase/petalinux/images/linux/rootfs.tar.gz -
 
 sudo tar -zxvf /media/zynq/ROOTFS/rootfs.tar.gz -C .
 
+
+================================================================================================================
+for install qt cross compile
+================================================================================================================
+sudo apt-get install gcc-arm-linux-gnueabihf g++-arm-linux-gnueabihf
+------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
