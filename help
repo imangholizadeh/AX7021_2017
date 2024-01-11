@@ -55,7 +55,11 @@ for install qt cross compile
 ================================================================================================================
 sudo apt-get install gcc-arm-linux-gnueabihf g++-arm-linux-gnueabihf
 ------------------------------------------------------------------------------------------------------------------
-
+##########################################
+#####   #RUN sa Adminstrator qt
+##########################################
+# OPEN admin wt wrestur
+ sudo /home/alin/Qt5.14.1/Tools/QtCreator/bin/qtcreator.sh
 
 
 
