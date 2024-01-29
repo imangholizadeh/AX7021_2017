@@ -1,0 +1,15 @@
+#! /bin/sh
+sleep 0.5
+ip addr add 172.30.202.245/24 dev eth0 
+sleep 0.5
+sleep 0.5
+export DISPLAY=:0.0 
+/home/root/run_qt_program.sh &
+sleep 0.5
+sleep 0.5
+sleep 0.5
+exit 0
+
+
+
+
