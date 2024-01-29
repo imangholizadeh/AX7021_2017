@@ -15,7 +15,7 @@ if [ ! -d $PKG_CONFIG_LIBDIR ]; then
   exit 1
 fi
 Cur_Dir=$(pwd)
-QT_SORCE=qt-everywhere-src-5.14.1
+QT_SORCE=qt-everywhere-src-5.14.2
 echo $Cur_Dir
 export ZYNQ_QT_BUILD=$Cur_Dir
 export PATH=$ZYNQ_QT_INSTALL/bin:$PATH
