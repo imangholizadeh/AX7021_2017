@@ -15,7 +15,7 @@ cdns-i2c e0004000.i2c: 100 kHz mmio e0004000 irq 22
 cdns-i2c e0005000.i2c: 100 kHz mmio e0005000 irq 23
 
   
-root@Petalinux_LCD_Terminal:~# i2cdetect -r -y 0
+root@Petalinux_LCD_Terminal:~# i2cdetect -r -y 0  
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f  
      
 00:          -- -- -- -- -- -- -- -- -- -- -- -- --  
